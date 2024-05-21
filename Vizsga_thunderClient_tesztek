@@ -1,0 +1,61 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Vizsga",
+    "dateExported": "2024-05-21T12:55:31.913Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0a2821ac-64b7-43ee-ac1a-6d3c9edacc4a",
+            "colId": "2568648c-6424-4e3a-bc3e-099be65c0e13",
+            "containerId": "",
+            "name": "Get Tema",
+            "url": "tema",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-21T12:42:07.717Z",
+            "modified": "2024-05-21T12:42:34.313Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ae3300e2-a1a1-4963-b5fe-25fe0007be2d",
+            "colId": "2568648c-6424-4e3a-bc3e-099be65c0e13",
+            "containerId": "",
+            "name": "Get Szavak Temánként ",
+            "url": "szavak/",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-05-21T12:43:32.172Z",
+            "modified": "2024-05-21T12:55:01.495Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"Gyümölcsök\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5c38e473-0b94-483e-92e9-842dade0a648",
+            "colId": "2568648c-6424-4e3a-bc3e-099be65c0e13",
+            "containerId": "",
+            "name": "Get Szavak témanévvel",
+            "url": "szavak",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T12:42:42.741Z",
+            "modified": "2024-05-21T12:43:01.194Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8000/api/"
+        }
+    }
+}
